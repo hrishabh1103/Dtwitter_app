@@ -12,7 +12,7 @@ contract Migrations {
     );
     _;
   }
-
+// change the repo to real location of this repo
   function setCompleted(uint completed) public restricted {
     last_completed_migration = completed;
   }
